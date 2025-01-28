@@ -32,16 +32,16 @@ Ensure you have the following installed on your system:
    cd url-shortener-backend
 
 2. Install dependencies:
- ```npm install
+    npm install
 
 3. Set up environment variables: Create a .env file in the root directory and add the following
-    ```DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
-        BASE_URL=http://localhost:5000
+    DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
+    BASE_URL=http://localhost:5000
 
 4. Initialize the database
-    ```npx prisma migrate dev --name init
+    npx prisma migrate dev --name init
 
-5.Start the server
-    ```npm start
+5.  Start the server
+        npm start
 
 
