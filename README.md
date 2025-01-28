@@ -48,4 +48,8 @@ Ensure you have the following installed on your system:
      ```bash
     npm start
 
+6.  Import file for postman testing
+    ```bash
+    https://github.com/Lakshya9545/Shortner/blob/main/UrlShortner.postman_collection.json
+
 
