@@ -31,4 +31,17 @@ Ensure you have the following installed on your system:
    git clone https://github.com/your-username/url-shortener-backend.git
    cd url-shortener-backend
 
+2. Install dependencies:
+ ```npm install
+
+3. Set up environment variables: Create a .env file in the root directory and add the following
+    ```DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
+        BASE_URL=http://localhost:5000
+
+4. Initialize the database
+    ```npx prisma migrate dev --name init
+
+5.Start the server
+    ```npm start
+
 
