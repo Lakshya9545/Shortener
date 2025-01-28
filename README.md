@@ -2,16 +2,7 @@
 
 This is the backend implementation of a URL shortener application built using **Node.js**, **Express**, **Prisma**, and **PostgreSQL**. The backend handles the creation of short URLs and redirects users to the original URL when accessing a short URL.
 
----
 
-## Features
-
-- **Create Short URL**: Generate a short, unique URL for any given original URL.
-- **Redirect**: Redirect users to the original URL when a valid short URL is accessed.
-- **Database Integration**: Stores and retrieves URLs from a PostgreSQL database using Prisma ORM.
-- **Environment Variables**: Securely manages sensitive data using `.env`.
-
----
 
 ## Tech Stack
 
