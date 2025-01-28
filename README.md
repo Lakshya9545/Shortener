@@ -45,7 +45,7 @@ Ensure you have the following installed on your system:
     npx prisma migrate dev --name init
 
 5.  Start the server
-        ```bash
-        npm start
+     ```bash
+    npm start
 
 
